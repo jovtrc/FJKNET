@@ -1,0 +1,56 @@
+.fazer-login {
+	background-image: url("../img/bg-login.jpg");
+	background-size: cover;
+}
+
+.area-login {
+	height: 100vh;
+	background: white;
+	position: relative;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.area-login form {
+	position: absolute;
+	left: 65px;
+	right: 65px;
+	top: 50%;
+	transform: translatey(-50%);
+}
+
+.fazer-login .logo {
+	max-height: 200px;
+	position: absolute;
+	max-height: 130px;
+	top: 50%; 	left: 50%;
+	transform: translatex(-50%) translatey(-50%);
+}
+
+.fazer-login input {
+	background: #eee;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+.fazer-login .btn {
+	background: #0c1427;
+	width: 100%;
+	border-radius: 0;
+	height: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+.fazer-login .btn:hover {
+	background: #3c4457;
+}
+
+
+.alert-fixed-bottom {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99999;
+}

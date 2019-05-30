@@ -1,0 +1,40 @@
+[26-May-2019 23:13:08 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:68) in /home/kurama/_subdominios/demo/fjknet/controller/lancamentosDelete.php on line 13
+[26-May-2019 23:14:41 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:68) in /home/kurama/_subdominios/demo/fjknet/controller/lancamentosDelete.php on line 12
+[26-May-2019 23:15:49 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:68) in /home/kurama/_subdominios/demo/fjknet/controller/lancamentosDelete.php on line 12
+[26-May-2019 23:16:13 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:68) in /home/kurama/_subdominios/demo/fjknet/controller/lancamentosDelete.php on line 12
+[26-May-2019 23:16:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= NULL' at line 1' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:69
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(69): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/lancamentosDelete.php(11): Crud->deletar('tb_financeiro_l...', Array)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 69
+[29-May-2019 17:54:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php:11
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php(11): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/login.php(14): Autenticacao->login('admin@email.com', '123456')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php on line 11
+[29-May-2019 17:54:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php:11
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php(11): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/login.php(14): Autenticacao->login('admin@email.com', '123456')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php on line 11
+[29-May-2019 18:06:31 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php:11
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php(11): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/login.php(14): Autenticacao->login('admin@email.com', '123456')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php on line 11
+[29-May-2019 21:54:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php:11
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php(11): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/login.php(14): Autenticacao->login('admin@email.com', '123456')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Autenticacao.class.php on line 11
+[29-May-2019 22:40:27 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nm_prod' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:26
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(26): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/controller/produtosCategoriasAdd.php(11): Crud->incluir('tb_estoque_prod...', Array)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 26

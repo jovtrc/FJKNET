@@ -1,0 +1,179 @@
+[26-May-2019 20:06:51 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_agendamento' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php:47
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php(47): PDO->query('SELECT a.*, s.d...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Agendamento->listarAgendamentoGeral()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php on line 47
+[26-May-2019 20:20:01 America/Sao_Paulo] PHP Warning:  include_once(../model/Usuarios.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php on line 6
+[26-May-2019 20:20:01 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Usuarios.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php on line 6
+[26-May-2019 20:20:01 America/Sao_Paulo] PHP Fatal error:  Class 'Usuario' not found in /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php on line 9
+[26-May-2019 20:20:30 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Usuario::listarUsuarios() in /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php on line 79
+[26-May-2019 20:27:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_agendamento' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php:47
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php(47): PDO->query('SELECT a.*, s.d...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Agendamento->listarAgendamentoGeral()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php on line 47
+[26-May-2019 20:56:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional_especialidade' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:85
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(85): PDOStatement->execute()
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/planosEdit.php(39): Crud->pegarInfos('tb_profissional...', NULL)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 85
+[26-May-2019 21:19:10 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Cliente::contarInadimplentes() in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 92
+[26-May-2019 21:20:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_agendamento' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php:47
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php(47): PDO->query('SELECT a.*, s.d...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Agendamento->listarAgendamentoGeral()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php on line 47
+[26-May-2019 21:20:31 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_agendamento' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php:47
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php(47): PDO->query('SELECT a.*, s.d...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Agendamento->listarAgendamentoGeral()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Agendamento.class.php on line 47
+[26-May-2019 21:40:42 America/Sao_Paulo] PHP Warning:  include_once(../model/Agendamento.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 5
+[26-May-2019 21:40:42 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Agendamento.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 5
+[26-May-2019 21:40:42 America/Sao_Paulo] PHP Fatal error:  Class 'Agendamento' not found in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 8
+[26-May-2019 21:41:02 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_agendamento' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:56
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(56): PDO->query('SELECT count(*)...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php(35): Crud->contarTudo('tb_agendamento')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 56
+[26-May-2019 21:41:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function contarAguardando() on null in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 60
+[26-May-2019 21:43:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entrada' in 'where clause'' in /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php:9
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php(9): PDO->query('SELECT count(*)...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php(35): Financeiro->contarPorTipo('Entrada')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php on line 9
+[26-May-2019 21:44:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entrada' in 'where clause'' in /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php:9
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php(9): PDO->query('SELECT count(*)...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php(35): Financeiro->contarPorTipo('Entrada')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Financeiro.class.php on line 9
+[26-May-2019 21:44:35 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 109
+[26-May-2019 21:45:11 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 109
+[26-May-2019 21:45:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentos.php on line 109
+[26-May-2019 22:53:47 America/Sao_Paulo] PHP Warning:  include_once(../model/Agendamento.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 5
+[26-May-2019 22:53:47 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Agendamento.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 5
+[26-May-2019 22:53:47 America/Sao_Paulo] PHP Fatal error:  Class 'Agendamento' not found in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 9
+[26-May-2019 22:54:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[26-May-2019 22:54:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[26-May-2019 22:56:21 America/Sao_Paulo] PHP Warning:  include_once(../model/Agendamento.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosAdd.php on line 6
+[26-May-2019 22:56:21 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Agendamento.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosAdd.php on line 6
+[26-May-2019 22:56:21 America/Sao_Paulo] PHP Fatal error:  Class 'Agendamento' not found in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosAdd.php on line 9
+[26-May-2019 23:14:46 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[26-May-2019 23:32:58 America/Sao_Paulo] PHP Warning:  include_once(../model/Agendamento.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/produtos.php on line 5
+[26-May-2019 23:32:58 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Agendamento.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/produtos.php on line 5
+[26-May-2019 23:32:58 America/Sao_Paulo] PHP Fatal error:  Class 'Agendamento' not found in /home/kurama/_subdominios/demo/fjknet/sistema/produtos.php on line 8
+[26-May-2019 23:34:04 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoProf() on null in /home/kurama/_subdominios/demo/fjknet/sistema/produtos.php on line 47
+[26-May-2019 23:35:27 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_estoque_produtos' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:56
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(56): PDO->query('SELECT count(*)...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/produtos.php(33): Crud->contarTudo('tb_estoque_prod...')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 56
+[27-May-2019 00:48:03 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[29-May-2019 00:26:37 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[29-May-2019 22:01:51 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[29-May-2019 22:04:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissional' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:56
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(56): PDO->query('SELECT count(*)...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php(35): Crud->contarTudo('tb_profissional')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 56
+[29-May-2019 22:06:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_profissionais_tipo' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Usuario.class.php:29
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Usuario.class.php(29): PDO->query('SELECT p.*, t.d...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/usuarios.php(79): Usuario->listarUsuarios()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Usuario.class.php on line 29
+[29-May-2019 22:22:57 America/Sao_Paulo] PHP Warning:  include_once(../model/Agendamento.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php on line 6
+[29-May-2019 22:22:57 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Agendamento.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php on line 6
+[29-May-2019 22:22:57 America/Sao_Paulo] PHP Warning:  include_once(../model/Paciente.class.php): failed to open stream: No such file or directory in /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php on line 7
+[29-May-2019 22:22:57 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../model/Paciente.class.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php on line 7
+[29-May-2019 22:22:57 America/Sao_Paulo] PHP Fatal error:  Class 'Agendamento' not found in /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php on line 10
+[29-May-2019 22:23:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php:45
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php(45): PDO->query('SELECT * FROM t...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/produtosAdd.php(45): Crud->listarEspecifico('tb_paciente', NULL)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Crud.class.php on line 45
+[29-May-2019 22:55:41 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[29-May-2019 23:07:44 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarAgendamentoGeral() on null in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 134
+[29-May-2019 23:14:31 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cliente.id_cliente' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:18
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(18): PDO->query('SELECT chamado....')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Chamado->listarTodosChamados()
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 18
+[29-May-2019 23:25:04 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 5' at line 11' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:19
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(19): PDO->query('SELECT chamado....')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Chamado->listarChamadosQuantidade(5)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 19
+[29-May-2019 23:26:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY dt_servico DESC' at line 12' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:20
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(20): PDO->query('SELECT chamado....')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Chamado->listarChamadosQuantidade(5)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 20
+[29-May-2019 23:26:24 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY chamado.dt_servico DESC' at line 12' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:20
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(20): PDO->query('SELECT chamado....')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Chamado->listarChamadosQuantidade(5)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 20
+[29-May-2019 23:27:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE chamado.id_status_servico = 1
+                LIMIT 7' at line 12' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:21
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(21): PDO->query('SELECT chamado....')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/index.php(136): Chamado->listarChamadosQuantidade(7)
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 21
+[29-May-2019 23:49:07 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 41
+[29-May-2019 23:49:10 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 41
+[29-May-2019 23:49:11 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 41
+[29-May-2019 23:49:12 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 41
+[29-May-2019 23:54:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function exibirChamadoCompleto() on null in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 43
+[29-May-2019 23:55:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kurama_fjkmed.tb_user' doesn't exist' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:81
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(81): PDO->query('SELECT o.*,\n\n  ...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php(46): Chamado->exibirChamadoCompleto('83')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 81
+[29-May-2019 23:55:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tecnico.nm_user' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:81
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(81): PDO->query('SELECT o.*,\n\n  ...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php(46): Chamado->exibirChamadoCompleto('83')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 81
+[29-May-2019 23:56:02 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.id_plano' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:81
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(81): PDO->query('SELECT o.*,\n\n  ...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php(46): Chamado->exibirChamadoCompleto('83')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 81
+[29-May-2019 23:56:14 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.id_plano' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:81
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(81): PDO->query('SELECT o.*,\n\n  ...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php(46): Chamado->exibirChamadoCompleto('83')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 81
+[29-May-2019 23:56:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.id_plano' in 'field list'' in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php:81
+Stack trace:
+#0 /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php(81): PDO->query('SELECT o.*,\n\n  ...')
+#1 /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php(46): Chamado->exibirChamadoCompleto('83')
+#2 {main}
+  thrown in /home/kurama/_subdominios/demo/fjknet/model/Chamado.class.php on line 81
+[29-May-2019 23:57:02 America/Sao_Paulo] PHP Fatal error:  Call to undefined function logoPadrao() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 56
+[29-May-2019 23:57:28 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 131
+[30-May-2019 00:00:18 America/Sao_Paulo] PHP Fatal error:  Call to undefined function db_connect() in /home/kurama/_subdominios/demo/fjknet/sistema/lancamentosImprimir.php on line 201
+[30-May-2019 00:10:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function listarChamadosQuantidade() on null in /home/kurama/_subdominios/demo/fjknet/sistema/chamados.php on line 77
+[30-May-2019 00:16:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /home/kurama/_subdominios/demo/fjknet/sistema/chamadosImprimir.php on line 67
+[30-May-2019 17:19:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kurama/_subdominios/demo/fjknet/sistema/index.php on line 15
